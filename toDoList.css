@@ -1,0 +1,73 @@
+body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.task-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px;
+}
+
+.task-list li {
+      background-color: #f0faff;
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      position: relative;
+}
+
+.task-list li:nth-child(odd) {
+      background-color: #c7ebff;
+ }
+
+.task-list li.checked {
+      background-color: #f0f0f0;
+}
+
+.task-list li::after{
+     content: 'x';
+     color: #8B0000;
+} 
+
+.task-list li.checked::before {
+      content: '\2714';
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+}
+
+.task-list li.checked span {
+      text-decoration: line-through;
+      color: #999;
+}
+
+.task-list li.unchecked::before {
+      content: '\2610';
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 5px; 
+      transform: translateY(-50%);
+}
+
+span {
+     padding: 20px;
+}
+
+div {
+   margin: auto;
+   padding: 20px;
+   width: 50%;
+   background-color:#C0C0C0;  
+}

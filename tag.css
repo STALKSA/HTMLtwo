@@ -1,0 +1,26 @@
+div {
+   margin: auto;
+   padding: 18px;
+   width: 40%;
+   background-color:#C0C0C0; 
+  font-size: 17px ;
+}
+
+li {
+  font-family: sans-serif;
+  line-height: 150%;
+  text-align: left;
+}
+
+.quote {
+  color: #696969;
+}
+
+.links {
+  color: #191970;
+}
+
+.boldtext {
+  font-weight: 700;
+  color: #696969;
+}
